@@ -1,0 +1,53 @@
+# MAC
+.DS_Store
+
+# NODE
+node_modules/
+
+# TOOLS
+.eslintcache
+
+# BUILD FILES
+build/
+dist/
+
+# Cache files
+apps/media-api/cache/
+apps/vol-api/cache/
+
+# ENV FILES
+.env
+.env.*
+!.env.template
+!.env.*.template
+
+# Expo
+.expo/
+dist/
+web-build/
+%ProgramData%
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Typescript
+*.tsbuildinfo
+
+# Cache
+.npm
+
+# Logs
+*.log

@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"strict": true,
+		"noEmit": true,
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noUncheckedSideEffectImports": false,
+		"strictNullChecks": true,
+		"noFallthroughCasesInSwitch": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strictPropertyInitialization": false,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
